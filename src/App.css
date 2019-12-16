@@ -1,32 +1,24 @@
-.App {
-  text-align: center;
+.excel-table-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  margin-left: 25px;
+  margin-right: 25px;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* .excel-table-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+} */
+.excel-table {
+  margin-bottom: 50px;
+}
+
+.center-flex{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.margin-25 {
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
